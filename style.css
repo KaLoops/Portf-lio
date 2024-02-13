@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #0b0b0b;
+    color: #88f8c0;
+}
+
+.destaque-titulo {
+    color: #DD614A
+}
+
+
+.compleicao {
+    margin:10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.compleicao__texto{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+   
+
+
+.compleicao__texto__titulo{
+    font-size: 46px;
+    font-family: 'Butterfly Kids', cursive;    
+}
+
+
+.compleicao__texto__paragrafo{
+    font-size: 22px;
+    font-family: 'Crafty Girls', cursive;
+}
+
+
+.compleicao__botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.compleicao__botoes__link{
+    background-color: #dd614a;
+    box-shadow: 10px 20px #88f8c0;
+    width: 280px;
+    text-align: center;
+    border: 3px solid #f5f5f5;
+    border-radius: 20px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f4ebeb;
+    font-family:'Crafty Girls', cursive;
+}
+.foto img {
+    max-width:  488px;
+    max-height: 550px;
+    box-shadow: 10px 20px #88f8c0;
+    border: 5px solid#dd614a;
+    border-radius: 16px;
+    width: auto;
+    height: auto;  
+}
+
+
+
